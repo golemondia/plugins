@@ -18,7 +18,7 @@
 	"extensions": {
 		"com.openai": {
 			"interface": {
-				"displayName": "Lemondia Business Research",
+				"displayName": "Lemondia Research",
 				"shortDescription": "Read-only venue research for Lemondia inquiries",
 				"longDescription": "Loads the venues selected on a Lemondia inquiry over an OAuth-protected read-only MCP endpoint, researches each venue on the public web, and prints a per-field comparison of stored versus published capacity and contact data with source links. The plugin never writes to Lemondia.",
 				"developerName": "Lemondia",

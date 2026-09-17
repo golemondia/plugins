@@ -1,9 +1,9 @@
 {
 	"$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
 	"mcpServers": {
-		"lemondia-business": {
+		"lemondia-internal": {
 			"type": "streamable-http",
-			"url": "https://admin.lemondia.com/api/business/mcp"
+			"url": "https://admin.lemondia.com/api/internal/mcp"
 		}
 	}
 }

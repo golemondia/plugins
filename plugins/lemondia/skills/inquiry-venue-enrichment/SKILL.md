@@ -5,7 +5,7 @@ description: Research every venue selected on a Lemondia inquiry and report wher
 
 # Inquiry venue enrichment research
 
-Load the venues selected on one inquiry from the Lemondia business MCP, research each of
+Load the venues selected on one inquiry from the Lemondia internal MCP, research each of
 them on the public web, and print a per-field comparison of stored versus published data.
 
 The output is a research report a human acts on. This skill never changes Lemondia data.
@@ -27,7 +27,7 @@ The output is a research report a human acts on. This skill never changes Lemond
 Before touching the inquiry, confirm both halves of the job are available in this session:
 
 1. The Lemondia MCP tools above. Host may namespace them (for example
-   `mcp__plugin_lemondia_lemondia-business__get_inquiry_research_context`).
+   `mcp__plugin_lemondia_lemondia-internal__get_inquiry_research_context`).
 2. Real web access: a web search tool AND a page fetch or browsing tool. PDF reading
    (conference factsheets are usually PDFs) is a bonus, not a substitute.
 

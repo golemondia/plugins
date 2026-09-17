@@ -1,8 +1,8 @@
 {
 	"mcpServers": {
-		"lemondia-business": {
+		"lemondia-internal": {
 			"type": "http",
-			"url": "https://admin.lemondia.com/api/business/mcp"
+			"url": "https://admin.lemondia.com/api/internal/mcp"
 		}
 	}
 }

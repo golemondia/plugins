@@ -1,7 +1,7 @@
 # Lemondia plugins
 
-Plugins for Claude Code, Claude, ChatGPT and Codex. They connect to the Lemondia business MCP
-at `https://admin.lemondia.com/api/business/mcp`, a read-only server that people sign in to with
+Plugins for Claude Code, Claude, ChatGPT and Codex. They connect to the Lemondia internal MCP
+at `https://admin.lemondia.com/api/internal/mcp`, a read-only server that people sign in to with
 their Google account. Access is granted per person in the Lemondia backoffice; nothing here
 contains credentials.
 
@@ -28,12 +28,12 @@ Without the workspace import: `codex plugin marketplace add golemondia/plugins`,
 /mcp
 ```
 
-Choose `lemondia-business` under `/mcp` and authenticate in the browser.
+Choose `lemondia-internal` under `/mcp` and authenticate in the browser.
 
 ### Claude Desktop and claude.ai
 
 Ask an organization admin to add the connector URL
-`https://admin.lemondia.com/api/business/mcp` under organization settings. It appears in your
+`https://admin.lemondia.com/api/internal/mcp` under organization settings. It appears in your
 connectors list; connect and sign in. The skill is available in Claude Code and Codex only.
 
 ## Sign-in fails?
