@@ -39,8 +39,10 @@ Never fill the gap with recalled knowledge of a hotel, a plausible number, or a 
 was not actually opened in this session. An unresearched field is reported as
 `not researched`, never as a finding.
 
-If the MCP tools are missing or unauthorized, say that the plugin needs sign-in (the
-endpoint uses OAuth; the host prompts for it) and stop.
+If the MCP tools are missing, or the sign-in ended with "not enabled" or `access_denied`, the
+person's account is not on the Lemondia internal MCP access list. Say exactly that: ask a
+Lemondia admin to add your email on the backoffice MCP access page (with the admin or operator
+role), then reconnect the Lemondia plugin and try again. Do not attempt any workaround.
 
 ## Step 2: resolve the inquiry
 
