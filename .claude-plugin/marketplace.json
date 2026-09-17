@@ -9,7 +9,7 @@
 		{
 			"name": "lemondia",
 			"source": "./plugins/lemondia",
-			"displayName": "Lemondia Business Research",
+			"displayName": "Lemondia Research",
 			"description": "Read-only venue research for Lemondia inquiries: compares stored capacity and contact data against public web evidence.",
 			"category": "Productivity",
 			"tags": ["lemondia", "venues", "research", "read-only"]
