@@ -52,8 +52,8 @@ missing, use the structured read tools rather than guessing:
   `relationships` takes `{table}` and returns `outgoing` and `incoming` foreign keys.
   `search_columns` takes `{pattern}` and finds a column by name across tables. `enums`
   takes an optional `{name}` and maps stored ints to labels (currency, statuses).
-- `query` is structured and accepts no SQL string. `sql` takes one read-only SELECT (joins
-  allowed) when a structured read cannot express what you need; the login itself is SELECT-only.
+- `query` is structured and accepts no SQL string. `sql` (admin role only) takes one read-only SELECT (joins
+  allowed) when a structured read cannot express what you need; every call runs in a rolled-back transaction.
 
 ```
 {

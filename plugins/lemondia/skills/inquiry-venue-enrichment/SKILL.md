@@ -15,7 +15,7 @@ The output is a research report a human acts on. This skill never changes Lemond
 - The MCP server exposes reads only: `get_inquiry_research_context`, `query`, `sql`, `tables`,
   `describe`, `relationships`, `search_columns`, `enums`. There is no write tool here.
 - Prefer `get_inquiry_research_context` and the structured `query` for this workflow. `sql`
-  accepts one read-only SELECT and exists for people doing analysis; if you use it, keep it to
+  is admin-only and exists for people doing analysis; if you use it, keep it to
   SELECT with TOP, never anything else.
 - Never call the separate venue-intake MCP, never propose `submit_venue`, an enrichment
   update, an offer or bid change, or "shall I apply these corrections?". Correcting the
