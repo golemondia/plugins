@@ -1,0 +1,20 @@
+{
+	"name": "lemondia",
+	"interface": {
+		"displayName": "Lemondia Plugins"
+	},
+	"plugins": [
+		{
+			"name": "lemondia",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lemondia"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "ON_INSTALL"
+			},
+			"category": "Productivity"
+		}
+	]
+}

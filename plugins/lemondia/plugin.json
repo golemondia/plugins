@@ -1,0 +1,27 @@
+{
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+	"name": "lemondia",
+	"version": "0.1.0",
+	"description": "Read-only Lemondia business research: compare stored venue capacity and contact data against public web evidence for the venues selected on an inquiry.",
+	"author": {
+		"name": "Lemondia",
+		"url": "https://lemondia.com"
+	},
+	"homepage": "https://admin.lemondia.com",
+	"license": "UNLICENSED",
+	"keywords": ["lemondia", "venues", "research", "read-only"],
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"displayName": "Lemondia Business Research",
+				"shortDescription": "Read-only venue research for Lemondia inquiries",
+				"longDescription": "Loads the venues selected on a Lemondia inquiry over an OAuth-protected read-only MCP endpoint, researches each venue on the public web, and prints a per-field comparison of stored versus published capacity and contact data with source links. The plugin never writes to Lemondia.",
+				"developerName": "Lemondia",
+				"category": "Productivity",
+				"capabilities": ["Read"],
+				"websiteURL": "https://lemondia.com",
+				"defaultPrompt": ["Research the venues on Lemondia inquiry 3f1c2a54-9b7e-4d21-8c6f-5a0b1d2e3f44.", "Compare our stored capacity against the venues' own sites for this inquiry link."]
+			}
+		}
+	}
+}

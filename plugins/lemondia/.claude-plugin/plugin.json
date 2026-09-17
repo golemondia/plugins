@@ -1,0 +1,12 @@
+{
+	"name": "lemondia",
+	"description": "Read-only Lemondia business research: compare stored venue capacity and contact data against public web evidence for the venues selected on an inquiry.",
+	"version": "0.1.0",
+	"author": {
+		"name": "Lemondia",
+		"url": "https://lemondia.com"
+	},
+	"homepage": "https://admin.lemondia.com",
+	"license": "UNLICENSED",
+	"keywords": ["lemondia", "venues", "research", "read-only"]
+}
