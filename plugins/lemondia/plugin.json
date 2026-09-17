@@ -9,7 +9,12 @@
 	},
 	"homepage": "https://admin.lemondia.com",
 	"license": "UNLICENSED",
-	"keywords": ["lemondia", "venues", "research", "read-only"],
+	"keywords": [
+		"lemondia",
+		"venues",
+		"research",
+		"read-only"
+	],
 	"extensions": {
 		"com.openai": {
 			"interface": {
@@ -18,9 +23,17 @@
 				"longDescription": "Loads the venues selected on a Lemondia inquiry over an OAuth-protected read-only MCP endpoint, researches each venue on the public web, and prints a per-field comparison of stored versus published capacity and contact data with source links. The plugin never writes to Lemondia.",
 				"developerName": "Lemondia",
 				"category": "Productivity",
-				"capabilities": ["Read"],
+				"capabilities": [
+					"Read"
+				],
 				"websiteURL": "https://lemondia.com",
-				"defaultPrompt": ["Research the venues on Lemondia inquiry 3f1c2a54-9b7e-4d21-8c6f-5a0b1d2e3f44.", "Compare our stored capacity against the venues' own sites for this inquiry link."]
+				"defaultPrompt": [
+					"Research the venues on Lemondia inquiry 3f1c2a54-9b7e-4d21-8c6f-5a0b1d2e3f44.",
+					"Compare our stored capacity against the venues' own sites for this inquiry link."
+				],
+				"brandColor": "#8BF472",
+				"composerIcon": "./assets/icon.png",
+				"logo": "./assets/logo.png"
 			}
 		}
 	}
