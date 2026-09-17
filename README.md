@@ -48,3 +48,10 @@ plugins/lemondia/            the plugin (manifests, MCP config, skills/)
 .claude-plugin/marketplace.json   Claude Code marketplace
 .agents/plugins/marketplace.json  Codex / ChatGPT marketplace
 ```
+
+## Releasing a change
+
+Edit the skill or manifests and push to `main` (or open a PR). CI bumps the patch version in
+both manifests when plugin content changed without one and tags `lemondia-v<version>`; the PR
+check refuses manifests that disagree. Hosts pick the new version up on their next marketplace
+sync (ChatGPT workspace import: automatic; Claude Code: `/plugin marketplace update`).
