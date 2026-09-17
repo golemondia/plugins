@@ -17,6 +17,7 @@
 	],
 	"extensions": {
 		"com.openai": {
+			"apps": "./.app.json",
 			"interface": {
 				"displayName": "Lemondia Research",
 				"shortDescription": "Read-only venue research for Lemondia inquiries",
